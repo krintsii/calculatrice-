@@ -1,0 +1,59 @@
+/* pour tout */
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+    
+} 
+/* le image font  */
+img{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+/* le contenue  */
+header{
+    padding-top: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/* le titre  */
+h1{
+    color: cadetblue;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+   text-shadow: 1px 1px black;
+   text-decoration: underline;
+}
+/* l'insertion des nombres   */
+input{
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(58, 55, 55);
+    align-items: center;
+}
+/* les boutons  */
+
+button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 50px;
+    border-color: rgb(30, 29, 105);
+    
+}
+/* le resultat  */
+p{
+    text-shadow: 2px 2px wheat;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* fin  */
